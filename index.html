@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Earthquake Hazards</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Earthquake Hazards</h1>
+		<nav>
+			<ul>
+				<li><a href="#overview" aria-label="Overview">Overview</a></li>
+				<li><a href="#causes" aria-label="Causes">Causes</a></li>
+				<li><a href="#effects" aria-label="Effects">Effects</a></li>
+				<li><a href="#prevention" aria-label="Prevention">Prevention</a></li>
+				<li><a href="#about" aria-label="About">About</a></li>
+				<li><a href="#calculator" aria-label="Calculator">Calculator</a></li>
+				<li><a href="#precautions" aria-label="Precautions">Precautions</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="overview">
+			<h2>About</h2>
+			<p>Some information about earthquake hazards...</p>
+		</section>
+		<section id="calculator">
+			<h2>Earthquake Hazard Calculator</h2>
+			<div class="container">
+				<label for="magnitude">Magnitude:</label>
+				<input type="number" id="magnitude" min="1" max="10" step="0.1" value="6">
+				<label for="depth">Depth (in km):</label>
+				<input type="number" id="depth" min="0" max="100" step="1" value="10">
+				<button id="calculate">Calculate</button>
+				<div id="result"></div>
+			</div>
+		</section>
+		<section id="about">
+			<h2>Overview</h2>
+			<p>An earthquake is a sudden shaking of the ground caused by the movement of tectonic plates. Earthquakes can be very destructive and cause a wide range of hazards, including ground shaking, landslides, liquefaction, and tsunamis. In this article, we will explore the causes, effects, and prevention of earthquake hazards.</p>
+		</section>
+		<section id="causes">
+			<h2>Causes</h2>
+			<p>Earthquakes are caused by the movement of tectonic plates. When two plates collide or slide past each other, they create a fault line. As the plates move, stress builds up along the fault line, and eventually, the stress is released in the form of an earthquake. The intensity and frequency of earthquakes depend on the location of the fault line and the movement of the plates.</p>
+		</section>
+		<section id="effects">
+			<h2>Effects</h2>
+			<p>Earthquakes can cause a wide range of hazards, including:</p>
+			<ul>
+				<li>Ground shaking, which can damage buildings and infrastructure</li>
+				<li>Landslides, which can bury homes and roads</li>
+				<li>Liquefaction, which can cause the ground to become unstable and sink</li>
+				<li>Tsunamis, which can cause massive waves that can flood coastal areas</li>
+			</ul>
+		</section>
+		<section id="prevention">
+			<h2>Prevention</h2>
+			<p>While earthquakes cannot be prevented, their effects can be mitigated through proper planning and preparedness. Some strategies for earthquake prevention and preparedness include:</p>
+			<ul>
+				<li>Building earthquake-resistant structures</li>
+				<li>Developing emergency response plans</li>
+				<li>Stockpiling emergency supplies</li>
+				<li>Practicing earthquake drills and evacuation procedures</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Earthquake Hazards. All rights reserved.</p>
+	</footer>
+	<script src="hazard.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  
+  /* Styles for earthquake hazard calculator */
+  .container {
+    max-width: 600px;
+    margin: 50px auto; /* added more margin to create space between the header and the calculator */
+    padding: 20px;
+    background-color: #f2f2f2; /* added background color to set it apart from the rest of the page */
+    border: 1px solid #ccc; /* added a border to create more contrast with the background */
+    border-radius: 4px; /* rounded the corners to make it look more modern */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* added a subtle box shadow to create depth */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px; /* added margin to create space between the input fields */
+    font-weight: bold; /* made the labels bold to create more contrast with the input fields */
+    color: #333; /* changed label color to make it more visible */
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* added more margin to create space between the input fields */
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #ff6347; /* changed the button color to make it stand out more */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px; /* increased font size to make it more prominent */
+    text-transform: uppercase; /* made the text uppercase to add emphasis */
+    transition: background-color 0.3s ease; /* added a smooth transition when hovering */
+  }
+  
+  button:hover {
+    background-color: #d12100; /* changed the hover color to match the button color */
+  }
+  
